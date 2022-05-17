@@ -87,7 +87,7 @@ Area between line of equality and Lorenz curve
 Let $g_i = f_i - l_i$
 
 $$\begin{aligned}
-\operatorname{Trapz}(f_i, g_i) &= \frac{1}{N}\operatorname{Trapz(g_i)} \\
+\operatorname{Trapz}(f_i, g_i) &= \frac{1}{N}\operatorname{Trapz}(g_i) \\
 &= \frac{1}{N}\bigg(\sum_{i=0}^N{g_i}-\frac{1}{2}(g_0 + g_N)\bigg) \\
 &= \frac{1}{N}\sum_{i=0}^N{g_i} \\
 &= \bar{g}

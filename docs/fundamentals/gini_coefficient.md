@@ -69,7 +69,7 @@ Area between line of equality and Lorenz curve
 
 Let <img src="svgs/7bfade092cda38225eaf6e3cfe962a1a.svg?invert_in_darkmode" align=middle width=78.39875835pt height=22.831056599999986pt/>
 
-<p align="center"><img src="svgs/5717239c787017ec66b92f694764eec8.svg?invert_in_darkmode" align=middle width=296.78041635pt height=171.90822825pt/></p>
+<p align="center"><img src="svgs/2e917eb37f14538bff95e1935a1ec0f9.svg?invert_in_darkmode" align=middle width=296.78041635pt height=171.90822825pt/></p>
 
 Area under line of equality is <img src="svgs/47d54de4e337a06266c0e1d22c9b417b.svg?invert_in_darkmode" align=middle width=6.552545999999997pt height=27.77565449999998pt/>
 
