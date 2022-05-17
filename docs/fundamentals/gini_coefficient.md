@@ -56,31 +56,31 @@ Gini Coefficient is defined as the the ratio between area between line of equali
 
 ![the area label in lorenz curve plot]()
 
-using trapizoidal method to determined those areas
+using **trapizoidal method** to determined those areas
 
-<p align="center"><img src="svgs/573e2ee16560c5ff9f537c658ce25bfa.svg?invert_in_darkmode" align=middle width=315.58352594999997pt height=47.806078649999996pt/></p>
+<p align="center"><img src="svgs/641a286e2b24bc45347e054ca277021b.svg?invert_in_darkmode" align=middle width=306.49667895pt height=47.806078649999996pt/></p>
 
 when <img src="svgs/07a573358a6c64b29111b28e8252da9d.svg?invert_in_darkmode" align=middle width=79.25610494999998pt height=24.65753399999998pt/> is constant and equal to <img src="svgs/ecd35f68213cd27c6e57c6d46f168f31.svg?invert_in_darkmode" align=middle width=24.00689774999999pt height=22.831056599999986pt/>
 
-<p align="center"><img src="svgs/a5bbfee248ac6978139d127f5396c394.svg?invert_in_darkmode" align=middle width=290.9777574pt height=47.806078649999996pt/></p>
+<p align="center"><img src="svgs/8c889f1f665ea6af52d8c08459f1e968.svg?invert_in_darkmode" align=middle width=281.8909104pt height=47.806078649999996pt/></p>
 
 Note that when calculate trapizoidal of lorenz curve index started from 0.  
 Area between line of equality and Lorenz curve
 
 Let <img src="svgs/7bfade092cda38225eaf6e3cfe962a1a.svg?invert_in_darkmode" align=middle width=78.39875835pt height=22.831056599999986pt/>
 
-<p align="center"><img src="svgs/86aa0f7ecd7abaaf45da42ff78f29b7f.svg?invert_in_darkmode" align=middle width=319.39848105pt height=171.90822825pt/></p>
+<p align="center"><img src="svgs/5717239c787017ec66b92f694764eec8.svg?invert_in_darkmode" align=middle width=296.78041635pt height=171.90822825pt/></p>
 
 Area under line of equality is <img src="svgs/47d54de4e337a06266c0e1d22c9b417b.svg?invert_in_darkmode" align=middle width=6.552545999999997pt height=27.77565449999998pt/>
 
-<p align="center"><img src="svgs/68cea7a0cd9dee5b258b03d7a8b4c3b2.svg?invert_in_darkmode" align=middle width=322.7604105pt height=192.71228459999998pt/></p>
+<p align="center"><img src="svgs/b89c5c18514012bc17a903d85fcc80b5.svg?invert_in_darkmode" align=middle width=297.6100479pt height=192.71228459999998pt/></p>
 
 thus the Gini coefficient is
 
 <p align="center"><img src="svgs/6b0574cfb12ec741ce19eb16c4a25a55.svg?invert_in_darkmode" align=middle width=51.84290265pt height=14.42921205pt/></p>
 
-Mean of Absolute Differences (<img src="svgs/12b166acdb4f0f9a522fb1e00e768253.svg?invert_in_darkmode" align=middle width=39.26952314999999pt height=22.648391699999998pt/>) is another approach of calculating Gini coefficient. half of relative mean of abosolute differences is equal to the Gini coefficient calculate through lorenz curve.
+Mean of Absolute Differences (<img src="svgs/299ea464285ce5f16fa312605bdddc08.svg?invert_in_darkmode" align=middle width=39.954444749999986pt height=22.465723500000017pt/>) is another approach of calculating Gini coefficient. half of relative mean of abosolute differences is equal to the Gini coefficient calculate through lorenz curve.
 
-<p align="center"><img src="svgs/a327bc5d41aeadf4a9854c348a869b7f.svg?invert_in_darkmode" align=middle width=247.7187801pt height=91.25284244999999pt/></p>
+<p align="center"><img src="svgs/6cf9f414b7b0e8ba06558e050dd892a4.svg?invert_in_darkmode" align=middle width=248.40371985pt height=91.25284244999999pt/></p>
 
 mathematically speaking, mean of absolute differences approach make more sense as a measure of inequality or dispersion
