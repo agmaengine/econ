@@ -28,21 +28,21 @@ $$
 Partial sum of the $i^{th}$ term of the sequnces is
 
 $$
-S_i = \sum_{n=1}^i{a_i}
+S_i = \sum_{j=1}^i{a_j}
 $$
 
 ### Sorted Sequence of a Measurable
 
-given a set of a measurable of samples $\{x_i\}$, we sorted the sample such that
+given a set of a measurable of samples $\{x_i\}$. Let the samples has $n$ members, we sorted the sample such that
 
 $$
-x_1 < x_2 < x_3 < x_4 < ... < x_i < ... < x_N
+x_1 < x_2 < x_3 < x_4 < ... < x_i < ... < x_n
 $$
 
 The sorted sequence of the measureable are
 
 $$
-(x_1, x_2, x_3, x_4, ..., x_i, x_N)
+(x_1, x_2, x_3, x_4, ..., x_i, ... x_n)
 $$
 
 ### Lorenz Curve
@@ -53,15 +53,15 @@ Let lorenz curve of samples be $\{(f_i, l_i)\}$
 
 $$
 \begin{aligned}
-f_i &= \sum_{n=1}^i{\frac{1}{N}} \\
-l_i &= \sum_{n=1}^i{\frac{x_i}{N\bar{x}}} \\
+f_i &= \sum_{n=1}^i{\frac{1}{n}} \\
+l_i &= \sum_{n=1}^i{\frac{x_i}{n\bar{x}}} \\
 \end{aligned}
 $$
 
 with $f_0 = 0$ and $l_0 = 0$  
 when there is no inequality then $x_i = \bar{x}$ and
 $$
-l_i = \sum_{n=1}^i{\frac{\bar{x}}{N\bar{x}}} = \sum_{n=1}^i{\frac{1}{N}}i = f_i  
+l_i = \sum_{n=1}^i{\frac{\bar{x}}{n\bar{x}}} = \sum_{n=1}^i{\frac{1}{n}}i = f_i  
 $$ 
 This is the **line of equality** $\{(f_i, f_i)\}$
 
@@ -69,43 +69,43 @@ This is the **line of equality** $\{(f_i, f_i)\}$
 
 Gini Coefficient is defined as the the ratio between area between line of equality and Lorenz curve and area under line of equality.
 
-![the area label in lorenz curve plot]()
+![the areas labeled in lorenz curve plot]()
 
 using **trapizoidal method** to determined those areas
 
 $$
-\operatorname{Trapz} (x_i, y_i) = \sum_{i=1}^N{\frac{1}{2}(y_i+y_{i+1})(x_{i+1}-x_i)}
+\operatorname{Trapz} (x_i, y_i) = \sum_{i=1}^{n-1}{\frac{1}{2}(y_i+y_{i+1})(x_{i+1}-x_i)}
 $$
 
 when $(x_{i+1}-x_i)$ is constant and equal to $\triangle x$
 
-$$\operatorname{Trapz}(y_i) = \bigg(\sum_{i=1}^N{y_i} - \frac{1}{2}(y_1 + y_N)\bigg)\triangle x$$
+$$\operatorname{Trapz}(y_i) = \bigg(\sum_{i=1}^n{y_i} - \frac{1}{2}(y_1 + y_n)\bigg)\triangle x$$
 
-Note that when calculate trapizoidal of lorenz curve index started from 0.  
+Note that when calculating trapizoidal area of lorenz curve, index started from 0.  
 Area between line of equality and Lorenz curve
 
 Let $g_i = f_i - l_i$
 
 $$\begin{aligned}
-\operatorname{Trapz}(f_i, g_i) &= \frac{1}{N}\operatorname{Trapz}(g_i) \\
-&= \frac{1}{N}\bigg(\sum_{i=0}^N{g_i}-\frac{1}{2}(g_0 + g_N)\bigg) \\
-&= \frac{1}{N}\sum_{i=0}^N{g_i} \\
-&= \bar{g}
+\operatorname{Trapz}(f_i, g_i) &= \frac{1}{n}\operatorname{Trapz}(g_i) \\
+&= \frac{1}{n}\bigg(\sum_{i=0}^n{g_i}-\frac{1}{2}(g_0 + g_n)\bigg) \\
+&= \frac{1}{n}\sum_{i=0}^n{g_i} \\
+&= \frac{n+1}{n}\bar{g}
 \end{aligned}$$
 
 Area under line of equality is $\frac{1}{2}$
 
 $$\begin{aligned}
-\operatorname{Trapz}(f_i, f_i) &= \frac{1}{N}\bigg(\sum_{i=0}^N{f_i}-\frac{1}{2}(f_0 + f_N)\bigg) \\
-&= \frac{1}{N}\bigg(\frac{1}{N}\sum_{i=0}^N{i}-\frac{1}{2}(0 + 1)\bigg) \\
-&= \frac{1}{N}\bigg(\frac{1}{N}\frac{N(N+1)}{2}-\frac{1}{2}\bigg) \\
+\operatorname{Trapz}(f_i, f_i) &= \frac{1}{n}\bigg(\sum_{i=0}^n{f_i}-\frac{1}{2}(f_0 + f_n)\bigg) \\
+&= \frac{1}{n}\bigg(\frac{1}{n}\sum_{i=0}^n{i}-\frac{1}{2}(0 + 1)\bigg) \\
+&= \frac{1}{n}\bigg(\frac{1}{n}\frac{n(n+1)}{2}-\frac{1}{2}\bigg) \\
 &= \frac{1}{2}
 \end{aligned}$$
 
 thus the Gini coefficient is
 
 $$
-G=2 \bar{g}
+G=2 \frac{n+1}{n}\bar{g}
 $$
 
 Mean of Absolute Differences ($\operatorname{MAD}$) is another approach of calculating Gini coefficient. half of relative mean of abosolute differences is equal to the Gini coefficient calculate through lorenz curve.
@@ -116,3 +116,8 @@ G &= \frac{1}{2\bar{x}}\operatorname{MAD}(\{x_i\})
 \end{aligned}$$
 
 mathematically speaking, mean of absolute differences approach make more sense as a measure of inequality or dispersion
+
+## References
+
+[Gini Coefficient, Wikipedia](https://en.wikipedia.org/wiki/Gini_coefficient)  
+[Lorenz Curve, Wikipedia](https://en.wikipedia.org/wiki/Lorenz_curve)  
