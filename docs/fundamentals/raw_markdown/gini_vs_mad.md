@@ -58,7 +58,6 @@ we see that $D$ and $B$ are related,
 $$\begin{aligned}
 \sum_{i=1}^n{h_i} &= nx_1 + (n-1)x_2 + (n-2)x_3 +... +(n-i+1)x_i + ... + x_n \\
 \sum_{i=1}^n{\sum_{j=1}^i x_j} &= \sum_{i=1}^n{(n-i+1)x_i} \\
-
 B &= D
 \end{aligned}
 $$
