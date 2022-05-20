@@ -94,3 +94,4 @@ mathematically speaking, mean of absolute differences approach make more sense a
 
 [Gini Coefficient, Wikipedia](https://en.wikipedia.org/wiki/Gini_coefficient)  
 [Lorenz Curve, Wikipedia](https://en.wikipedia.org/wiki/Lorenz_curve)  
+[Gini Coefficient and Means of Absolute Differences](gini_vs_mad.md)
