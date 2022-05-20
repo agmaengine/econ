@@ -49,6 +49,8 @@ $$
 
 Lorenz curve are tuples of partial sum of sample's proportion sequence and partial sum of sorted measurable proportion sequence
 
+![lorenz curve](/docs/fundamentals/imgs/lorenz.svg)
+
 Let lorenz curve of samples be $\{(f_i, l_i)\}$
 
 $$
@@ -69,7 +71,11 @@ This is the **line of equality** $\{(f_i, f_i)\}$
 
 Gini Coefficient is defined as the the ratio between area between line of equality and Lorenz curve and area under line of equality.
 
-![the areas labeled in lorenz curve plot]()
+> ![area betweeen line of equality and Lorenz curve](/docs/fundamentals/imgs/lorenz_A.svg)  
+The area between line of equality and Lorenz curve
+
+> ![area under line of equality](/docs/fundamentals/imgs/lorenz_B.svg)  
+The area under line of equality
 
 using **trapizoidal method** to determined those areas
 
