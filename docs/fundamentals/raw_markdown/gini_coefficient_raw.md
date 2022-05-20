@@ -64,7 +64,7 @@ with $f_0 = 0$ and $l_0 = 0$
 when there is no inequality then $x_i = \bar{x}$ and
 $$
 l_i = \sum_{n=1}^i{\frac{\bar{x}}{n\bar{x}}} = \sum_{n=1}^i{\frac{1}{n}}i = f_i  
-$$ 
+$$  
 This is the **line of equality** $\{(f_i, f_i)\}$
 
 ### Gini Coefficient Definition
@@ -72,10 +72,9 @@ This is the **line of equality** $\{(f_i, f_i)\}$
 Gini Coefficient is defined as the the ratio between area between line of equality and Lorenz curve and area under line of equality.
 
 > ![area betweeen line of equality and Lorenz curve](/docs/fundamentals/imgs/lorenz_A.svg)  
-The area between line of equality and Lorenz curve
-
+>The area between line of equality and Lorenz curve
 > ![area under line of equality](/docs/fundamentals/imgs/lorenz_B.svg)  
-The area under line of equality
+>The area under line of equality
 
 using **trapizoidal method** to determined those areas
 

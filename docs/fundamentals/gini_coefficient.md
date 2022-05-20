@@ -49,7 +49,7 @@ Let lorenz curve of samples be <img src="svgs/57480d683548cabe23bc856a8c551c0f.s
 
 with <img src="svgs/8511332df39325a5a9da9b5aeb7be6f0.svg?invert_in_darkmode" align=middle width=45.559286849999985pt height=22.831056599999986pt/> and <img src="svgs/1cc82470061a35a5468ec096483b1d0e.svg?invert_in_darkmode" align=middle width=42.41617544999999pt height=22.831056599999986pt/>  
 when there is no inequality then <img src="svgs/4857a419253496ade3d008a2348c1aca.svg?invert_in_darkmode" align=middle width=46.18040294999999pt height=18.666631500000015pt/> and
-<p align="center"><img src="svgs/578d2e131ade65f06cb9572d1e23ea2c.svg?invert_in_darkmode" align=middle width=186.53096549999998pt height=47.358596999999996pt/></p> 
+<p align="center"><img src="svgs/578d2e131ade65f06cb9572d1e23ea2c.svg?invert_in_darkmode" align=middle width=186.53096549999998pt height=47.358596999999996pt/></p>  
 This is the **line of equality** <img src="svgs/85943d5fd288f0d3e4f4792c45b3d3c2.svg?invert_in_darkmode" align=middle width=63.571302299999985pt height=24.65753399999998pt/>
 
 ### Gini Coefficient Definition
@@ -57,10 +57,9 @@ This is the **line of equality** <img src="svgs/85943d5fd288f0d3e4f4792c45b3d3c2
 Gini Coefficient is defined as the the ratio between area between line of equality and Lorenz curve and area under line of equality.
 
 > ![area betweeen line of equality and Lorenz curve](/docs/fundamentals/imgs/lorenz_A.svg)  
-The area between line of equality and Lorenz curve
-
+>The area between line of equality and Lorenz curve
 > ![area under line of equality](/docs/fundamentals/imgs/lorenz_B.svg)  
-The area under line of equality
+>The area under line of equality
 
 using **trapizoidal method** to determined those areas
 
